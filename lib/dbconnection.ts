@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { buffer } from "stream/consumers";
 
 const MONGO_URL=process.env.MONGO_URI!
 if(!MONGO_URL)
