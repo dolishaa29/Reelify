@@ -1,7 +1,6 @@
 import { authOptions } from "@/lib/auth";
 import { connectToDatabse } from "@/lib/dbconnection";
 import Video, { IVideo } from "@/models/video";
-import { request } from "http";
 import { getServerSession } from "next-auth";
 import { NextRequest, NextResponse } from "next/server";
 
